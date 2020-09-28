@@ -39,9 +39,18 @@ def run
   input = gets.strip
   
   case input
-  
   when "play"
     play
+    when "help"
+      help
+    when "list"
+      list
+      when "exit"
+        exit_jukebox
+        
+      else
+        puts ""
+      
     
 
 end
