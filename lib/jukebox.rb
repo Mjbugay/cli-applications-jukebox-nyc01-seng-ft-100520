@@ -39,16 +39,15 @@ def run
   input = gets.strip
   
   case input
-  when "play"
-    play(songs)
+    when "play"
+      play(songs)
     when "help"
       help
-    when "list"
+  when "list"
       list(songs)
-      when "exit"
+  when "exit"
         exit_jukebox
-        
-      else
+  else
         puts "Invalid input, please try again"
       end
     end
