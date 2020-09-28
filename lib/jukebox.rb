@@ -43,16 +43,16 @@ def run
       play(songs)
     when "help"
       help
-  when "list"
+    when "list"
       list(songs)
-  when "exit"
-        exit_jukebox
-  else
-        puts "Invalid input, please try again"
-      end
+    when "exit"
+      exit_jukebox
+    else
+      puts "Invalid input, please try again"
     end
   end
 end
+
 
 
 
