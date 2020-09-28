@@ -39,6 +39,10 @@ def run
   input = gets.strip
   
   case input
+  
+  when "play"
+    play
+    
 
 end
 
