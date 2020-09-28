@@ -18,17 +18,9 @@ def play(songs)
   input = gets.strip
   number = input.to_i - 1
   
-    if input == "exit"
-      exit_jukebox
-      elsif number < 0 && songs.include?(input)
-      index = songs.index(input)
-      puts "Playing #{songs[index]}"
-      elsif number >= 0 && songs[number] != nil
-      puts "Playing #{songs[number]}"
-    else
-      puts "Invalid input, please try again"
-  end
-end
+  
+  
+
 
 def exit_jukebox
   puts "Goodbye"
