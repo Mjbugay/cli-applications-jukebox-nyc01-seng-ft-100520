@@ -49,7 +49,11 @@ def run
         exit_jukebox
         
       else
-        puts ""
+        puts "Invalid input, please try again"
+      end
+    end
+  end
+end
       
     
 
