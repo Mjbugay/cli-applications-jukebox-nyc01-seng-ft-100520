@@ -50,7 +50,6 @@ def run
     else
       puts "Invalid input, please try again"
     end
-  end
 end
 
 
